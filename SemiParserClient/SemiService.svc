@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="SemiParserClient.SemiService" CodeBehind="SemiService.svc.cs" %>

@@ -1,0 +1,96 @@
+﻿body {
+    margin: 0px;
+}
+
+#expBlock,
+#pBlock,
+#replaceBlock {
+    margin: 0 auto;
+    position: relative;
+}
+
+#expBlock {
+    height: 200px;
+    width: 900px;
+    top: 200px;
+}
+
+#expBlock .symbol {
+    float: left;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+#pBlock {
+    display: none;
+    top: 120px;
+    text-align: center;
+}
+
+#replaceBlock {
+    display: none;
+    height: 200px;
+    width: 1000px;
+    top: 200px;
+}
+
+    #replaceBlock .symbol {
+        margin: 0 auto;
+    }
+
+#expTxt,
+#pRequestBlock {
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 10px;
+    font: 28px arial;
+}
+
+#expTxt {
+    border: 1px solid gray;
+    width: 800px;
+}
+
+#pRequestBlock {
+    width: 100%;
+}
+
+    #pRequestBlock .symbol {
+        margin: 0 auto;
+    }
+
+#repLabel {
+    font: 28px arial;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+}
+
+.symbol {
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 26px;
+    height: 40px;
+    padding-left: 10px;
+    padding-top: 0;
+    width: 30px;
+    text-align: left;
+}
+
+#tblRequest {
+    margin: 0 auto;
+    font: 28px arial;
+}
+
+    #tblRequest tr {
+        height: 60px;
+    }
+
+    #tblRequest input {
+        width: 40px;
+        height: 40px;
+        border: 1px solid green;
+        font: inherit;
+        padding: 10px;
+    }
